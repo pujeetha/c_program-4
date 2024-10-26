@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main()
+{
+    int i,m,n,s=0,avg,c=0;
+    printf("enter the value of m:");
+    scanf("%d",&m);
+    printf("enter the value of n:");
+    scanf("%d",&n);
+    for(i=m;i<=n;i++)
+    {
+        printf("\n%d",i);
+        s=s+i;
+        c++;
+    }
+    printf("\nthe sum is :%d",s);
+    avg=s/c;
+    printf("\nthe avg is:%d",avg);
+    
+    return 0;
+}
